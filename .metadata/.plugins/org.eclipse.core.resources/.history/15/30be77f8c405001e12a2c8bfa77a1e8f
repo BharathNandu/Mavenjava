@@ -1,0 +1,14 @@
+package qaclickacademy;
+
+import org.testng.annotations.Test;
+
+public class SeleniumTest {
+		@Test
+	public void Browsertest() {
+		// TODO Auto-generated method stub
+		
+		
+		System.out.println("This is selenium test");
+	}
+
+}
