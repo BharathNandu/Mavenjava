@@ -1,0 +1,13 @@
+package org.java;
+
+public class Sum {
+	
+	public int sumofnumber(int c)
+	{
+		int a=10;
+		int b=12;
+		int c1=a+b;
+		return c1;
+	}
+
+}

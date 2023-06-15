@@ -1,39 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="2" total="13" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-08T13:37:12 IST" name="Suite" finished-at="2023-06-08T13:37:12 IST" duration-ms="47">
+  <suite started-at="2023-06-13T20:44:17 IST" name="Surefire suite" finished-at="2023-06-13T20:44:24 IST" duration-ms="6229">
     <groups>
     </groups>
-    <test started-at="2023-06-08T13:37:12 IST" name="Test" finished-at="2023-06-08T13:37:12 IST" duration-ms="47">
+    <test started-at="2023-06-13T20:44:17 IST" name="Surefire test" finished-at="2023-06-13T20:44:24 IST" duration-ms="6229">
       <class name="qaclickacademy.AppiumTest">
-        <test-method signature="Android()[pri:0, instance:qaclickacademy.AppiumTest@188715b5]" started-at="2023-06-08T13:37:12 IST" name="Android" finished-at="2023-06-08T13:37:12 IST" duration-ms="4" status="PASS">
+        <test-method signature="Android()[pri:0, instance:qaclickacademy.AppiumTest@547c04c4]" started-at="2023-06-13T20:44:24 IST" name="Android" finished-at="2023-06-13T20:44:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Android -->
-        <test-method signature="IOS()[pri:0, instance:qaclickacademy.AppiumTest@188715b5]" started-at="2023-06-08T13:37:12 IST" name="IOS" finished-at="2023-06-08T13:37:12 IST" duration-ms="1" status="PASS">
+        <test-method signature="IOS()[pri:0, instance:qaclickacademy.AppiumTest@547c04c4]" started-at="2023-06-13T20:44:24 IST" name="IOS" finished-at="2023-06-13T20:44:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IOS -->
       </class> <!-- qaclickacademy.AppiumTest -->
+      <class name="org.rahulsheety.OpenBrowserTest">
+        <test-method signature="emptycart()[pri:0, instance:org.rahulsheety.OpenBrowserTest@241a0c3a]" started-at="2023-06-13T20:44:24 IST" name="emptycart" finished-at="2023-06-13T20:44:24 IST" duration-ms="27" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".cart\-icon"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d257c865fe37a4a05ca3bd7516fd38c, findElement {using=class name, value=cart-icon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4846/devtool..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d257c865fe37a4a05ca3bd7516fd38c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".cart\-icon"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d257c865fe37a4a05ca3bd7516fd38c, findElement {using=class name, value=cart-icon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4846/devtool..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.rahulsheety.OpenBrowserTest.emptycart(OpenBrowserTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptycart -->
+      </class> <!-- org.rahulsheety.OpenBrowserTest -->
+      <class name="qaclickacademy.RestAPITest">
+        <test-method signature="Maps()[pri:0, instance:qaclickacademy.RestAPITest@30e92cb9]" started-at="2023-06-13T20:44:24 IST" name="Maps" finished-at="2023-06-13T20:44:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Maps -->
+        <test-method signature="Uahoo()[pri:0, instance:qaclickacademy.RestAPITest@30e92cb9]" started-at="2023-06-13T20:44:24 IST" name="Uahoo" finished-at="2023-06-13T20:44:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Uahoo -->
+      </class> <!-- qaclickacademy.RestAPITest -->
       <class name="qaclickacademy.SeleniumTest">
-        <test-method signature="Browsertest()[pri:0, instance:qaclickacademy.SeleniumTest@56620197]" started-at="2023-06-08T13:37:12 IST" name="Browsertest" finished-at="2023-06-08T13:37:12 IST" duration-ms="0" status="PASS">
+        <test-method signature="Browsertest()[pri:0, instance:qaclickacademy.SeleniumTest@7fae4d4a]" started-at="2023-06-13T20:44:24 IST" name="Browsertest" finished-at="2023-06-13T20:44:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browsertest -->
-        <test-method signature="Dquit()[pri:0, instance:qaclickacademy.SeleniumTest@56620197]" started-at="2023-06-08T13:37:12 IST" name="Dquit" finished-at="2023-06-08T13:37:12 IST" duration-ms="1" status="PASS">
+        <test-method signature="Dquit()[pri:0, instance:qaclickacademy.SeleniumTest@7fae4d4a]" started-at="2023-06-13T20:44:24 IST" name="Dquit" finished-at="2023-06-13T20:44:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dquit -->
-        <test-method signature="elements()[pri:0, instance:qaclickacademy.SeleniumTest@56620197]" started-at="2023-06-08T13:37:12 IST" name="elements" finished-at="2023-06-08T13:37:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- elements -->
-        <test-method signature="elementsUI()[pri:0, instance:qaclickacademy.SeleniumTest@56620197]" started-at="2023-06-08T13:37:12 IST" name="elementsUI" finished-at="2023-06-08T13:37:12 IST" duration-ms="0" status="PASS">
+        <test-method signature="elementsUI()[pri:0, instance:qaclickacademy.SeleniumTest@7fae4d4a]" started-at="2023-06-13T20:44:24 IST" name="elementsUI" finished-at="2023-06-13T20:44:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elementsUI -->
+        <test-method signature="elements()[pri:0, instance:qaclickacademy.SeleniumTest@7fae4d4a]" started-at="2023-06-13T20:44:24 IST" name="elements" finished-at="2023-06-13T20:44:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elements -->
       </class> <!-- qaclickacademy.SeleniumTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      <class name="org.rahulsheety.AddCartTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:org.rahulsheety.AddCartTest@456abb66]" started-at="2023-06-13T20:44:17 IST" name="OpenBrowser" finished-at="2023-06-13T20:44:20 IST" duration-ms="2843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="AddCart()[pri:0, instance:org.rahulsheety.AddCartTest@456abb66]" started-at="2023-06-13T20:44:20 IST" name="AddCart" finished-at="2023-06-13T20:44:23 IST" duration-ms="3001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCart -->
+        <test-method signature="emptycart()[pri:0, instance:org.rahulsheety.AddCartTest@456abb66]" started-at="2023-06-13T20:44:23 IST" name="emptycart" finished-at="2023-06-13T20:44:24 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptycart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.rahulsheety.AddCartTest@456abb66]" started-at="2023-06-13T20:44:24 IST" name="closeBrowser" finished-at="2023-06-13T20:44:24 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.rahulsheety.AddCartTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

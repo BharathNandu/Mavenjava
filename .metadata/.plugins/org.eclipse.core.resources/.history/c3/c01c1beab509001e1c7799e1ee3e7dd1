@@ -1,0 +1,20 @@
+package org.rahulsheety;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Selintro {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Invoke the browser
+		 	//Chromebrowser
+		//Firefox browser
+		String path= "C:\\Users\\Bharath\\Rahulshetty\\Mavenjava\\src\\test\\resources\\chromedriver.exe";
+		ChromeDriver driver =new ChromeDriver();
+		
+		
+	}
+
+}
