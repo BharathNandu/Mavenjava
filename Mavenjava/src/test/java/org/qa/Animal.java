@@ -1,6 +1,6 @@
 package org.qa;
 
-public class Animal {
+public  abstract class Animal {
 	
 	String color ="white";
 	
