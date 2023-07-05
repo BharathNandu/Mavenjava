@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                    <span class="method-stats">17 methods, 3 failed,   14 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,6 +101,16 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.rahulsheety.AddCartTest" class="method navigator-link" hash-for-method="AddCart">AddCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.rahulsheety.LoginDemoTest" class="method navigator-link" hash-for-method="OpenBrowser">OpenBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="org.rahulsheety.OpenBrowserTest" class="method navigator-link" hash-for-method="emptycart">emptycart</a> <!-- method navigator-link -->
@@ -115,11 +125,6 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.rahulsheety.AddCartTest" class="method navigator-link" hash-for-method="AddCart">AddCart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="qaclickacademy.AppiumTest" class="method navigator-link" hash-for-method="Android">Android</a> <!-- method navigator-link -->
@@ -147,7 +152,32 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.rahulsheety.DemoTest" class="method navigator-link" hash-for-method="OpenBrowser">OpenBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.rahulsheety.FirefoxTest" class="method navigator-link" hash-for-method="OpenBrowser">OpenBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.rahulsheety.EdgeBrowserTest" class="method navigator-link" hash-for-method="OpenBrowser">OpenBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="qaclickacademy.RestAPITest" class="method navigator-link" hash-for-method="Uahoo">Uahoo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.rahulsheety.AddingTestingTest" class="method navigator-link" hash-for-method="addTwoNegativeNumbers">addTwoNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.rahulsheety.AddingTestingTest" class="method navigator-link" hash-for-method="addTwoPositiveNumbers">addTwoPositiveNumbers</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -180,6 +210,66 @@
           <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">org.rahulsheety.AddCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCart">
+                  </a> <!-- AddCart -->
+                  <span class="method-name">AddCart</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Cannot find elements when the class name expression is null.
+	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:207)
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:306)
+	at org.openqa.selenium.By.className(By.java:100)
+	at org.rahulsheety.AddCartTest.AddCart(AddCartTest.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.rahulsheety.LoginDemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenBrowser">
+                  </a> <!-- OpenBrowser -->
+                  <span class="method-name">OpenBrowser</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please enter some search keyword}
+  (Session info: chrome=114.0.5735.199): Please enter some search keyword
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90476c78de626512f81fc34f1934d467, findElement {using=xpath, value=//*[@xpath=&apos;1&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1056/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90476c78de626512f81fc34f1934d467
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.rahulsheety.LoginDemoTest.OpenBrowser(LoginDemoTest.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">org.rahulsheety.OpenBrowserTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -189,14 +279,14 @@
                   </a> <!-- emptycart -->
                   <span class="method-name">emptycart</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.cart\-icon&quot;}
-  (Session info: chrome=114.0.5735.110)
+  (Session info: chrome=114.0.5735.199)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7d257c865fe37a4a05ca3bd7516fd38c, findElement {using=class name, value=cart-icon}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4846/devtool..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
+Command: [06b3fcd78264ab2036774de346c60114, findElement {using=class name, value=cart-icon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1073}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1073/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06b3fcd78264ab2036774de346c60114
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -208,7 +298,7 @@ Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.rahulsheety.OpenBrowserTest.emptycart(OpenBrowserTest.java:29)
+	at org.rahulsheety.OpenBrowserTest.emptycart(OpenBrowserTest.java:34)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
@@ -216,6 +306,43 @@ Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.rahulsheety.EdgeBrowserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenBrowser">
+                  </a> <!-- OpenBrowser -->
+                  <span class="method-name">OpenBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qaclickacademy.AppiumTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Android">
+                  </a> <!-- Android -->
+                  <span class="method-name">Android</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IOS">
+                  </a> <!-- IOS -->
+                  <span class="method-name">IOS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -260,13 +387,6 @@ Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="AddCart">
-                  </a> <!-- AddCart -->
-                  <span class="method-name">AddCart</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="emptycart">
                   </a> <!-- emptycart -->
                   <span class="method-name">emptycart</span>
@@ -299,21 +419,51 @@ Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">qaclickacademy.AppiumTest</span>
+              <span class="class-name">org.rahulsheety.FirefoxTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Android">
-                  </a> <!-- Android -->
-                  <span class="method-name">Android</span>
+                  <a name="OpenBrowser">
+                  </a> <!-- OpenBrowser -->
+                  <span class="method-name">OpenBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.rahulsheety.DemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenBrowser">
+                  </a> <!-- OpenBrowser -->
+                  <span class="method-name">OpenBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.rahulsheety.AddingTestingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTwoNegativeNumbers">
+                  </a> <!-- addTwoNegativeNumbers -->
+                  <span class="method-name">addTwoNegativeNumbers</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="IOS">
-                  </a> <!-- IOS -->
-                  <span class="method-name">IOS</span>
+                  <a name="addTwoPositiveNumbers">
+                  </a> <!-- addTwoPositiveNumbers -->
+                  <span class="method-name">addTwoPositiveNumbers</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -329,7 +479,20 @@ Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
 &lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;org.qa.Test123&quot;/&gt;
+      &lt;class name=&quot;org.qa.Testoverload2&quot;/&gt;
+      &lt;class name=&quot;org.qa.Testoverloading1&quot;/&gt;
+      &lt;class name=&quot;org.qa.Testoverloading3&quot;/&gt;
+      &lt;class name=&quot;org.qa.Testoverriding1&quot;/&gt;
+      &lt;class name=&quot;org.qa.TestOverriding2&quot;/&gt;
+      &lt;class name=&quot;org.qa.TestSuper1&quot;/&gt;
       &lt;class name=&quot;org.rahulsheety.AddCartTest&quot;/&gt;
+      &lt;class name=&quot;org.rahulsheety.AddingTestingTest&quot;/&gt;
+      &lt;class name=&quot;org.rahulsheety.DemoTest&quot;/&gt;
+      &lt;class name=&quot;org.rahulsheety.EdgeBrowserTest&quot;/&gt;
+      &lt;class name=&quot;org.rahulsheety.FirefoxTest&quot;/&gt;
+      &lt;class name=&quot;org.rahulsheety.IncognitoTest&quot;/&gt;
+      &lt;class name=&quot;org.rahulsheety.LoginDemoTest&quot;/&gt;
       &lt;class name=&quot;org.rahulsheety.OpenBrowserTest&quot;/&gt;
       &lt;class name=&quot;org.rahulsheety.SelintroTest&quot;/&gt;
       &lt;class name=&quot;qaclickacademy.AppiumTest&quot;/&gt;
@@ -348,7 +511,7 @@ Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (6 classes)</span>
+                <span class="test-name">Surefire test (19 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -374,56 +537,80 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(17);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AddCart')
-data.setCell(0, 2, 'org.rahulsheety.AddCartTest')
-data.setCell(0, 3, 3001);
+data.setCell(0, 1, 'OpenBrowser')
+data.setCell(0, 2, 'org.rahulsheety.DemoTest')
+data.setCell(0, 3, 17605);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'emptycart')
-data.setCell(1, 2, 'org.rahulsheety.AddCartTest')
-data.setCell(1, 3, 157);
+data.setCell(1, 1, 'OpenBrowser')
+data.setCell(1, 2, 'org.rahulsheety.LoginDemoTest')
+data.setCell(1, 3, 4417);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'emptycart')
-data.setCell(2, 2, 'org.rahulsheety.OpenBrowserTest')
-data.setCell(2, 3, 27);
+data.setCell(2, 1, 'OpenBrowser')
+data.setCell(2, 2, 'org.rahulsheety.EdgeBrowserTest')
+data.setCell(2, 3, 4349);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'elementsUI')
-data.setCell(3, 2, 'qaclickacademy.SeleniumTest')
-data.setCell(3, 3, 1);
+data.setCell(3, 1, 'OpenBrowser')
+data.setCell(3, 2, 'org.rahulsheety.FirefoxTest')
+data.setCell(3, 3, 3301);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Android')
-data.setCell(4, 2, 'qaclickacademy.AppiumTest')
-data.setCell(4, 3, 1);
+data.setCell(4, 1, 'AddCart')
+data.setCell(4, 2, 'org.rahulsheety.AddCartTest')
+data.setCell(4, 3, 2223);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Browsertest')
-data.setCell(5, 2, 'qaclickacademy.SeleniumTest')
-data.setCell(5, 3, 0);
+data.setCell(5, 1, 'emptycart')
+data.setCell(5, 2, 'org.rahulsheety.AddCartTest')
+data.setCell(5, 3, 119);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Dquit')
-data.setCell(6, 2, 'qaclickacademy.SeleniumTest')
-data.setCell(6, 3, 0);
+data.setCell(6, 1, 'emptycart')
+data.setCell(6, 2, 'org.rahulsheety.OpenBrowserTest')
+data.setCell(6, 3, 20);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'IOS')
 data.setCell(7, 2, 'qaclickacademy.AppiumTest')
-data.setCell(7, 3, 0);
+data.setCell(7, 3, 1);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Uahoo')
-data.setCell(8, 2, 'qaclickacademy.RestAPITest')
+data.setCell(8, 1, 'Android')
+data.setCell(8, 2, 'qaclickacademy.AppiumTest')
 data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'elements')
 data.setCell(9, 2, 'qaclickacademy.SeleniumTest')
 data.setCell(9, 3, 0);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'Maps')
-data.setCell(10, 2, 'qaclickacademy.RestAPITest')
+data.setCell(10, 1, 'addTwoPositiveNumbers')
+data.setCell(10, 2, 'org.rahulsheety.AddingTestingTest')
 data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Dquit')
+data.setCell(11, 2, 'qaclickacademy.SeleniumTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Maps')
+data.setCell(12, 2, 'qaclickacademy.RestAPITest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addTwoNegativeNumbers')
+data.setCell(13, 2, 'org.rahulsheety.AddingTestingTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Browsertest')
+data.setCell(14, 2, 'qaclickacademy.SeleniumTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Uahoo')
+data.setCell(15, 2, 'qaclickacademy.RestAPITest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'elementsUI')
+data.setCell(16, 2, 'qaclickacademy.SeleniumTest')
+data.setCell(16, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -464,12 +651,55 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">AddCart</span>
-                <span class="method-start">2893 ms</span>
+                <span class="method-start">1236 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">emptycart</span>
-                <span class="method-start">5897 ms</span>
+                <span class="method-start">3465 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.rahulsheety.AddingTestingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addTwoPositiveNumbers</span>
+                <span class="method-start">3586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addTwoNegativeNumbers</span>
+                <span class="method-start">3586 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.rahulsheety.DemoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">3587 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.rahulsheety.EdgeBrowserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">21193 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.rahulsheety.FirefoxTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">25543 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.rahulsheety.LoginDemoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">28845 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -478,55 +708,92 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">emptycart</span>
-                <span class="method-start">6056 ms</span>
+                <span class="method-start">33270 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">qaclickacademy.AppiumTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Android</span>
-                <span class="method-start">6089 ms</span>
+                <span class="method-start">33291 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">IOS</span>
-                <span class="method-start">6091 ms</span>
+                <span class="method-start">33291 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">qaclickacademy.RestAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Maps</span>
-                <span class="method-start">6092 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Uahoo</span>
-                <span class="method-start">6093 ms</span>
+                <span class="method-start">33292 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">qaclickacademy.SeleniumTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Browsertest</span>
-                <span class="method-start">6095 ms</span>
+                <span class="method-start">33293 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaclickacademy.RestAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Uahoo</span>
+                <span class="method-start">33293 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaclickacademy.SeleniumTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">elements</span>
+                <span class="method-start">33294 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Dquit</span>
-                <span class="method-start">6097 ms</span>
+                <span class="method-start">33294 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.rahulsheety.DemoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33295 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaclickacademy.SeleniumTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">elementsUI</span>
-                <span class="method-start">6099 ms</span>
+                <span class="method-start">33295 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">elements</span>
-                <span class="method-start">6099 ms</span>
-              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.rahulsheety.EdgeBrowserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">33423 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.rahulsheety.FirefoxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">33668 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.rahulsheety.LoginDemoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34623 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.rahulsheety.AddCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">6100 ms</span>
+                <span class="method-start">34819 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

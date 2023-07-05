@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.147" tests="11" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="46.468" tests="17" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Bharath\Rahulshetty\Mavenjava\src\test\resources\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\Bharath\AppData\Local\Temp\surefire4263428779844392044\surefirebooter-20230613204412882_3.jar C:\Users\Bharath\AppData\Local\Temp\surefire4263428779844392044 2023-06-13T20-44-12_677-jvmRun1 surefire-20230613204412882_1tmp surefire_0-20230613204412882_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Bharath\AppData\Local\Temp\surefire8463339590786229328\surefirebooter-20230704224833264_3.jar C:\Users\Bharath\AppData\Local\Temp\surefire8463339590786229328 2023-07-04T22-48-33_092-jvmRun1 surefire-20230704224833264_1tmp surefire_0-20230704224833264_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Bharath\Rahulshetty\Mavenjava\target\test-classes;C:\Users\Bharath\Rahulshetty\Mavenjava\target\classes;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\Bharath\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Bharath\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Bharath\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Bharath\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Bharath\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Bharath\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Bharath\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Bharath\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Bharath\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Bharath\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\Bharath\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\Bharath\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Bharath\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Bharath\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\Bharath\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Bharath\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Bharath\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Bharath\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Bharath\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Bharath\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Bharath\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\Bharath\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Bharath\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Bharath\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Bharath\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Bharath\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Bharath\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Bharath\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Bharath\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Bharath\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Bharath\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Bharath\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Bharath\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Bharath\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Bharath\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Bharath\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Bharath\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Bharath\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Bharath\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Bharath\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Bharath\AppData\Local\Temp\surefire4263428779844392044\surefirebooter-20230613204412882_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Bharath\AppData\Local\Temp\surefire8463339590786229328\surefirebooter-20230704224833264_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.1+9-29"/>
@@ -48,6 +48,7 @@
     <property name="java.version" value="20.0.1"/>
     <property name="user.dir" value="C:\Users\Bharath\Rahulshetty\Mavenjava"/>
     <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\Bharath\Rahulshetty\Mavenjava\src\test\resources\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
@@ -58,47 +59,731 @@
     <property name="java.vm.version" value="20.0.1+9-29"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
+    <property name="webdriver.edgedriver.driver" value="C:\Users\Bharath\Rahulshetty\Mavenjava\src\test\resources\msedgedriver.exe"/>
   </properties>
-  <testcase name="AddCart" classname="org.rahulsheety.AddCartTest" time="3.003">
+  <testcase name="AddCart" classname="org.rahulsheety.AddCartTest" time="2.227">
+    <failure message="Cannot find elements when the class name expression is null." type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Cannot find elements when the class name expression is null.
+	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:207)
+	at org.openqa.selenium.By$ByClassName.<init>(By.java:306)
+	at org.openqa.selenium.By.className(By.java:100)
+	at org.rahulsheety.AddCartTest.AddCart(AddCartTest.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[GreenKart - veg and fruits kart
+GreenKart - veg and fruits kart
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jun 13, 2023 8:44:14 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+Jul 04, 2023 10:48:33 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
 INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 18720
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 23705
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 13, 2023 8:44:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 04, 2023 10:48:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jun 13, 2023 8:44:16 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+Jul 04, 2023 10:48:35 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
 INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 30651
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 47905
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 13, 2023 8:44:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 04, 2023 10:48:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 47652
+Jul 04, 2023 10:48:36 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting Microsoft Edge WebDriver 114.0.1823.67 (3f1d7fbb324e0f523365de1adb604ed5525e48bb) on port 3365
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jul 04, 2023 10:48:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+Jul 04, 2023 10:48:39 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1688491119611	geckodriver	INFO	Listening on 127.0.0.1:39182
+1688491119648	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "41752" "--remote ... calhost:41752/,http://[::1]:41752/" "-no-remote" "-profile" "C:\\Users\\Bharath\\AppData\\Local\\Temp\\rust_mozprofileP0QocH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688491120141	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688491120146	Marionette	INFO	Listening on port 1028
+Read port: 1028
+WebDriver BiDi listening on ws://127.0.0.1:41752
+1688491120360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:41752/devtools/browser/56a8f165-9747-49ee-95df-eb5940b00653
+Jul 04, 2023 10:48:43 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 11536
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 13, 2023 8:44:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 04, 2023 10:48:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+Jul 04, 2023 10:48:43 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 5091
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 04, 2023 10:48:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 26529
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 04, 2023 10:48:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+Jul 04, 2023 10:48:48 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
 ]]></system-err>
   </testcase>
-  <testcase name="emptycart" classname="org.rahulsheety.AddCartTest" time="0.153"/>
-  <testcase name="emptycart" classname="org.rahulsheety.OpenBrowserTest" time="0.033">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.cart\-icon&quot;}&#10;  (Session info: chrome=114.0.5735.110)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7d257c865fe37a4a05ca3bd7516fd38c, findElement {using=class name, value=cart-icon}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4846/devtool..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7d257c865fe37a4a05ca3bd7516fd38c" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="emptycart" classname="org.rahulsheety.AddCartTest" time="0.116"/>
+  <testcase name="addTwoNegativeNumbers" classname="org.rahulsheety.AddingTestingTest" time="0"/>
+  <testcase name="addTwoPositiveNumbers" classname="org.rahulsheety.AddingTestingTest" time="0.001"/>
+  <testcase name="OpenBrowser" classname="org.rahulsheety.DemoTest" time="17.605">
+    <system-out><![CDATA[Demo Web Shop
+]]></system-out>
+  </testcase>
+  <testcase name="OpenBrowser" classname="org.rahulsheety.EdgeBrowserTest" time="4.35">
+    <system-out><![CDATA[GreenKart - veg and fruits kart
+]]></system-out>
+  </testcase>
+  <testcase name="OpenBrowser" classname="org.rahulsheety.FirefoxTest" time="3.302">
+    <system-out><![CDATA[GreenKart - veg and fruits kart
+]]></system-out>
+  </testcase>
+  <testcase name="OpenBrowser" classname="org.rahulsheety.LoginDemoTest" time="4.424">
+    <failure message="unexpected alert open: {Alert text : Please enter some search keyword}&#10;  (Session info: chrome=114.0.5735.199): Please enter some search keyword&#10;Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [90476c78de626512f81fc34f1934d467, findElement {using=xpath, value=//*[@xpath=&apos;1&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1056/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 90476c78de626512f81fc34f1934d467" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Please enter some search keyword}
+  (Session info: chrome=114.0.5735.199): Please enter some search keyword
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90476c78de626512f81fc34f1934d467, findElement {using=xpath, value=//*[@xpath='1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1056/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90476c78de626512f81fc34f1934d467
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.rahulsheety.LoginDemoTest.OpenBrowser(LoginDemoTest.java:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Demo Web Shop
+https://demowebshop.tricentis.com/cart
+<html><head>
+    <title>Demo Web Shop. Shopping Cart</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="nopCommerce">
+    
+    
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="/Themes/DefaultClean/Content/styles.css" rel="stylesheet" type="text/css">
+<link href="/Themes/DefaultClean/Content/responsive.css" rel="stylesheet" type="text/css">
+<link href="/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script src="/Scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="/Scripts/jquery.validate.min.js" type="text/javascript"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+<script src="/Scripts/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="/Scripts/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="/Scripts/public.common.js" type="text/javascript"></script>
+<script src="/Scripts/public.ajaxcart.js" type="text/javascript"></script>
+
+    
+    
+    
+    
+    
+<link rel="shortcut icon" href="https://demowebshop.tricentis.com/favicon.ico">
+    <!--Powered by nopCommerce - http://www.nopCommerce.com-->
+    <!--Copyright (c) 2008-2014-->
+</head>
+<body style="">
+    
+
+
+<div id="dialog-notifications-success" title="Notification" style="display:none;">
+</div>
+<div id="dialog-notifications-error" title="Error" style="display:none;">
+</div>
+<div id="bar-notification" class="bar-notification">
+    <span class="close" title="Close">&nbsp;</span>
+</div>
+
+
+
+<div class="master-wrapper-page">
+    
+    <div class="master-wrapper-content">
+        <script type="text/javascript">
+            AjaxCart.init(false, '.header-links .cart-qty', '.header-links .wishlist-qty', '#flyout-cart');
+        </script>
+        
+
+<div class="header">
+    
+    <div class="header-logo">
+        <a href="/">
+            <img title="" alt="Tricentis Demo Web Shop" src="/Themes/DefaultClean/Content/images/logo.png">
+        </a>
+    </div>
+    <div class="header-links-wrapper">
+        <div class="header-links">
+    <ul>
+        
+            <li><a href="/register" class="ico-register">Register</a></li>
+            <li><a href="/login" class="ico-login">Log in</a></li>
+                            <li id="topcartlink">
+                <a href="/cart" class="ico-cart">
+                    <span class="cart-label">Shopping cart</span>
+                    <span class="cart-qty">(0)</span>
+                </a>
+            </li>
+                    <li>
+                <a href="/wishlist" class="ico-wishlist">
+                    <span class="cart-label">Wishlist</span>
+                    <span class="wishlist-qty">(0)</span>
+                </a>
+            </li>
+        
+    </ul>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.header').on('mouseenter', '#topcartlink', function () {
+                    $('#flyout-cart').addClass('active');
+                });
+                $('.header').on('mouseleave', '#topcartlink', function () {
+                    $('#flyout-cart').removeClass('active');
+                });
+                $('.header').on('mouseenter', '#flyout-cart', function () {
+                    $('#flyout-cart').addClass('active');
+                });
+                $('.header').on('mouseleave', '#flyout-cart', function () {
+                    $('#flyout-cart').removeClass('active');
+                });
+            });
+        </script>
+</div>
+
+        <div id="flyout-cart" class="flyout-cart">
+    <div class="mini-shopping-cart">
+        <div class="count">
+You have no items in your shopping cart.        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-box">
+        
+<form action="/search" method="get" onsubmit="return check_small_search_form()" novalidate="novalidate">    <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" class="search-box-text ui-autocomplete-input" id="small-searchterms" autocomplete="off" value="Search store" name="q">
+    <input type="submit" class="button-1 search-box-button" value="Search">
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#small-searchterms").focus(function() {
+                if (this.value == 'Search store') {
+                    this.value = '';
+                }
+            });
+
+            $("#small-searchterms").blur(function() {
+                if (this.value == '') {
+                    this.value = 'Search store';
+                }
+            });
+        });
+
+        function check_small_search_form() {
+            var search_terms = $("#small-searchterms");
+            if (search_terms.val() == "" || search_terms.val() == "Search store") {
+                alert('Please enter some search keyword');
+                search_terms.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+        
+            <script type="text/javascript">
+                $(function() {
+                    $('#small-searchterms').autocomplete({
+                            delay: 500,
+                            minLength: 3,
+                            source: '/catalog/searchtermautocomplete',
+                            select: function(event, ui) {
+                                $("#small-searchterms").val(ui.item.label);
+                                setLocation(ui.item.producturl);
+                                return false;
+                            }
+                        })
+                        .data("ui-autocomplete")._renderItem = function(ul, item) {
+                            var t = item.label;
+                            //html encode
+                            t = htmlEncode(t);
+                            return $("<li></li>")
+                                .data("item.autocomplete", item)
+                                .append("<a>" + t + "</a>")
+                            .appendTo(ul);
+                    };
+                });
+            </script>
+        
+</form>
+    </div>
+    <div class="header-selectors-wrapper">
+        <div class="tax-display-type-selector">
+            
+        </div>
+        <div class="currency-selector">
+            
+        </div>
+        <div class="language-selector">
+            
+        </div>
+        
+    </div>
+</div>
+
+        <div class="header-menu">
+            
+
+<ul class="top-menu">
+    
+    <li>
+        <a href="/books">Books
+        </a>
+                <div class="top-menu-triangle"></div>
+
+    </li>
+    <li>
+        <a href="/computers">Computers
+        </a>
+                <div class="top-menu-triangle"></div>
+                <ul class="sublist firstLevel">
+    <li>
+        <a href="/desktops">Desktops
+        </a>
+
+    </li>
+    <li>
+        <a href="/notebooks">Notebooks
+        </a>
+
+    </li>
+    <li>
+        <a href="/accessories">Accessories
+        </a>
+
+    </li>
+                </ul>
+
+    </li>
+    <li>
+        <a href="/electronics">Electronics
+        </a>
+                <div class="top-menu-triangle"></div>
+                <ul class="sublist firstLevel">
+    <li>
+        <a href="/camera-photo">Camera, photo
+        </a>
+
+    </li>
+    <li>
+        <a href="/cell-phones">Cell phones
+        </a>
+
+    </li>
+                </ul>
+
+    </li>
+    <li>
+        <a href="/apparel-shoes">Apparel &amp; Shoes
+        </a>
+                <div class="top-menu-triangle"></div>
+
+    </li>
+    <li>
+        <a href="/digital-downloads">Digital downloads
+        </a>
+                <div class="top-menu-triangle"></div>
+
+    </li>
+    <li>
+        <a href="/jewelry">Jewelry
+        </a>
+                <div class="top-menu-triangle"></div>
+
+    </li>
+    <li>
+        <a href="/gift-cards">Gift Cards
+        </a>
+                <div class="top-menu-triangle"></div>
+
+    </li>
+    
+</ul>
+
+<script type="text/javascript">
+    $('li', '.top-menu').on('mouseenter', function () {
+        $('a', $(this)).first().addClass('hover');
+        if (!$(this).parent().hasClass('top-menu')) {
+            var width = $(this).innerWidth();
+            $('.sublist', $(this)).first().css('left', width + 15);
+        }
+        $('.sublist', $(this)).first().addClass('active');
+        $('.top-menu-triangle', $(this)).addClass('active');
+    });
+
+    $('li', '.top-menu').on('mouseleave', function () {
+        $('a', $(this)).first().removeClass('hover');
+        $('.sublist', $(this)).first().removeClass('active');
+        $('.top-menu-triangle', $(this)).removeClass('active');
+    });
+
+</script>
+
+    <div id="mob-menu-button">
+        <a href="">
+            <span class="icon"><span class="line"></span><span class="line"></span><span class="line"></span></span>
+
+            <span>Categories</span>
+        </a>
+    </div>
+    <ul class="mob-top-menu">
+        
+    <li>
+        <a href="/books">Books
+        </a>
+                <div class="top-menu-triangle"></div>
+
+    </li>
+    <li>
+        <a href="/computers">Computers
+        </a>
+                <div class="top-menu-triangle"></div>
+                    <span class="expand">&nbsp;</span>
+                <ul class="sublist firstLevel">
+    <li>
+        <a href="/desktops">Desktops
+        </a>
+
+    </li>
+    <li>
+        <a href="/notebooks">Notebooks
+        </a>
+
+    </li>
+    <li>
+        <a href="/accessories">Accessories
+        </a>
+
+    </li>
+                </ul>
+
+    </li>
+    <li>
+        <a href="/electronics">Electronics
+        </a>
+                <div class="top-menu-triangle"></div>
+                    <span class="expand">&nbsp;</span>
+                <ul class="sublist firstLevel">
+    <li>
+        <a href="/camera-photo">Camera, photo
+        </a>
+
+    </li>
+    <li>
+        <a href="/cell-phones">Cell phones
+        </a>
+
+    </li>
+                </ul>
+
+    </li>
+    <li>
+        <a href="/apparel-shoes">Apparel &amp; Shoes
+        </a>
+                <div class="top-menu-triangle"></div>
+
+    </li>
+    <li>
+        <a href="/digital-downloads">Digital downloads
+        </a>
+                <div class="top-menu-triangle"></div>
+
+    </li>
+    <li>
+        <a href="/jewelry">Jewelry
+        </a>
+                <div class="top-menu-triangle"></div>
+
+    </li>
+    <li>
+        <a href="/gift-cards">Gift Cards
+        </a>
+                <div class="top-menu-triangle"></div>
+
+    </li>
+        
+    </ul>
+    <script type="text/javascript">
+        $('a', $('#mob-menu-button')).toggle(function() {
+                $('.mob-top-menu').addClass('show');
+            },
+            function() {
+                $('.mob-top-menu').removeClass('show');
+            }
+        );
+
+        $(function($) {
+            $('.mob-top-menu .expand').click(function() {
+                var parent = $(this).parent();
+                if (parent.hasClass('active')) {
+                    $(".sublist:first", parent).hide(300);
+                    parent.removeClass('active');
+                } else {
+                    $(".sublist:first", parent).show(300);
+                    parent.addClass('active');
+                }
+            });
+        });
+    </script>
+
+        </div>
+        
+        
+        <div class="ajax-loading-block-window" style="display: none">
+            <div class="loading-image">
+            </div>
+        </div>
+        <div class="master-wrapper-main">
+            
+<div class="center-1">
+    
+    
+<div class="order-progress">
+    <ul>
+        
+        <li><a class="active-step" href="/cart">Cart</a>
+        </li>
+        <li><a class="inactive-step">Address</a>
+        </li>
+        <li><a class="inactive-step">Shipping</a>
+        </li>
+        <li><a class="inactive-step">Payment</a>
+        </li>
+        <li><a class="inactive-step">Confirm</a>
+        </li>
+        <li><a class="inactive-step">Complete</a>
+        </li>
+        
+    </ul>
+</div>
+<div class="page shopping-cart-page">
+    <div class="page-title">
+        <h1>Shopping cart</h1>
+    </div>
+    <div class="page-body">
+        
+<div class="order-summary-content">
+    
+    
+Your Shopping Cart is empty!    
+</div>
+
+    </div>
+</div>
+
+    
+</div>
+
+        </div>
+        
+    </div>
+    
+<div class="footer">
+    <div class="footer-menu-wrapper">
+        <div class="column information">
+            <h3>Information</h3>
+            <ul>
+                    <li><a href="/sitemap">Sitemap</a></li>
+                <li><a href="/shipping-returns">Shipping &amp; Returns</a></li>
+                <li><a href="/privacy-policy">Privacy Notice</a></li>
+                <li><a href="/conditions-of-use">Conditions of Use</a></li>
+                <li><a href="/about-us">About us</a></li>
+                <li><a href="/contactus">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="column customer-service">
+            <h3>Customer service</h3>
+            <ul>
+                <li><a href="/search">Search</a> </li>
+                    <li><a href="/news">News</a></li>
+                                    <li><a href="/blog">Blog</a></li>
+                                                    <li><a href="/recentlyviewedproducts">Recently viewed products</a></li>
+                                    <li><a href="/compareproducts">Compare products list</a></li>
+                                    <li><a href="/newproducts">New products</a></li>
+            </ul>
+        </div>
+        <div class="column my-account">
+            <h3>My account</h3>
+            <ul>
+                <li><a href="/customer/info" class="account">My account</a></li>
+                    <li><a href="/customer/orders">Orders</a></li>
+                                    <li><a href="/customer/addresses" class="">Addresses</a></li>
+                                    <li><a href="/cart" class="ico-cart">Shopping cart</a></li>
+                                    <li><a href="/wishlist" class="ico-wishlist">Wishlist</a></li>
+            </ul>
+        </div>
+        <div class="column follow-us">
+            <h3>Follow us</h3>
+            <ul>
+                    <li class="facebook"><a href="http://www.facebook.com/nopCommerce" target="_blank">Facebook</a></li>
+                                                    <li class="twitter"><a href="https://twitter.com/nopCommerce" target="_blank">Twitter</a></li>
+                                                    <li class="rss"><a href="/news/rss/1">RSS</a></li>
+                                                    <li class="youtube"><a href="http://www.youtube.com/user/nopCommerce" target="_blank">YouTube</a></li>
+                                                    <li class="google-plus"><a href="https://plus.google.com/+nopcommerce" target="_blank">Google+</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-poweredby">
+        Powered by <a href="http://www.nopcommerce.com/">nopCommerce</a>
+        
+    </div>
+    <div class="footer-disclaimer">
+        Copyright © 2023 Tricentis Demo Web Shop. All rights reserved.
+    </div>
+    <div class="footer-store-theme">
+        
+
+
+    </div>
+    
+</div>
+</div>
+
+<!-- Google code for Analytics tracking -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-6574346-11']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+    
+    
+
+
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul></body></html>
+]]></system-out>
+  </testcase>
+  <testcase name="emptycart" classname="org.rahulsheety.OpenBrowserTest" time="0.021">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.cart\-icon&quot;}&#10;  (Session info: chrome=114.0.5735.199)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [06b3fcd78264ab2036774de346c60114, findElement {using=class name, value=cart-icon}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1073}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1073/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 06b3fcd78264ab2036774de346c60114" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"css selector","selector":".cart\-icon"}
-  (Session info: chrome=114.0.5735.110)
+  (Session info: chrome=114.0.5735.199)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7d257c865fe37a4a05ca3bd7516fd38c, findElement {using=class name, value=cart-icon}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4846/devtool..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
+Command: [06b3fcd78264ab2036774de346c60114, findElement {using=class name, value=cart-icon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1073}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1073/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06b3fcd78264ab2036774de346c60114
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -113,7 +798,7 @@ Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.rahulsheety.OpenBrowserTest.emptycart(OpenBrowserTest.java:29)
+	at org.rahulsheety.OpenBrowserTest.emptycart(OpenBrowserTest.java:34)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -147,7 +832,7 @@ Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="Android" classname="qaclickacademy.AppiumTest" time="0.002">
+  <testcase name="Android" classname="qaclickacademy.AppiumTest" time="0.001">
     <system-out><![CDATA[This is Android test
 ]]></system-out>
   </testcase>
@@ -155,7 +840,7 @@ Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
     <system-out><![CDATA[This is IOS test
 ]]></system-out>
   </testcase>
-  <testcase name="Maps" classname="qaclickacademy.RestAPITest" time="0.001">
+  <testcase name="Maps" classname="qaclickacademy.RestAPITest" time="0">
     <system-out><![CDATA[This is Maps test
 ]]></system-out>
   </testcase>
@@ -163,19 +848,19 @@ Session ID: 7d257c865fe37a4a05ca3bd7516fd38c
     <system-out><![CDATA[This is Yahoo test
 ]]></system-out>
   </testcase>
-  <testcase name="Browsertest" classname="qaclickacademy.SeleniumTest" time="0.007">
+  <testcase name="Browsertest" classname="qaclickacademy.SeleniumTest" time="0.001">
     <system-out><![CDATA[This is Browsertest test
 ]]></system-out>
   </testcase>
-  <testcase name="Dquit" classname="qaclickacademy.SeleniumTest" time="0.001">
+  <testcase name="Dquit" classname="qaclickacademy.SeleniumTest" time="0.005">
     <system-out><![CDATA[Dquit
 ]]></system-out>
   </testcase>
-  <testcase name="elements" classname="qaclickacademy.SeleniumTest" time="0.007">
+  <testcase name="elements" classname="qaclickacademy.SeleniumTest" time="0.001">
     <system-out><![CDATA[This is elements test
 ]]></system-out>
   </testcase>
-  <testcase name="elementsUI" classname="qaclickacademy.SeleniumTest" time="0.002">
+  <testcase name="elementsUI" classname="qaclickacademy.SeleniumTest" time="0.001">
     <system-out><![CDATA[This is elementsUI test
 ]]></system-out>
   </testcase>

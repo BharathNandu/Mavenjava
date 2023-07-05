@@ -13,6 +13,8 @@ public class IncognitoTest {
 	ChromeOptions opt = new ChromeOptions();
 	opt.addArguments("--incognito");
 	WebDriver driver = new ChromeDriver();
+	
+	driver.close();
 	}
 	
 
