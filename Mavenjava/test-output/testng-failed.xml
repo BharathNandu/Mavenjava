@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.rahulsheety.DemoTest">
+      <class name="org.rahulsheety.LocatorsTest">
         <methods>
           <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- org.rahulsheety.DemoTest -->
+      </class> <!-- org.rahulsheety.LocatorsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

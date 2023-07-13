@@ -3,13 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="qaclickacademy.AppiumTest"/>
-      <class name="qaclickacademy.SeleniumTest"/>
-      <class name="qaclickacademy.RestAPITest"/>
+      <class name="org.rahulsheety.AddingTestingTest"/>
+      <class name="org.rahulsheety.LocatorsTest"/>
       <class name="org.rahulsheety.EdgeBrowserTest"/>
       <class name="org.rahulsheety.AddCartTest"/>
       <class name="org.rahulsheety.OpenBrowserTest"/>
+      <class name="org.rahulsheety.LoginDemoTest"/>
       <class name="org.rahulsheety.FirefoxTest"/>
+      <class name="org.rahulsheety.DemoTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

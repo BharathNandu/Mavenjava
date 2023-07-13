@@ -29,12 +29,14 @@ public class OpenBrowserTest {
 	
 	//validation of the the empty cart
 
-	@Test
-	public void emptycart() {
-		WebElement AddtoCart = driver.findElement(By.className("cart-icon"));
+	@Test(enabled = true)
+	public void emptycart() throws Exception {
+		Thread.sleep(6000);
+		WebElement AddtoCart = driver.findElement(By.xpath("//*[@alt='Cart']"));
 		AddtoCart.click();
 		WebElement Emptycart =driver.findElement(By.xpath("//*[@class=\"empty-cart\"]/h2"));
 		String Actual=Emptycart.getText();
+		System.out.println(Actual);
 		String Expected ="You cart is empty!";
 		Assert.assertEquals(Actual, Expected);
 	}

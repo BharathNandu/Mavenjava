@@ -1,5 +1,7 @@
 package org.rahulsheety;
 
+import java.time.Duration;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +17,7 @@ public class LoginDemoTest {
 	@Test
 	public  void OpenBrowser() {
 		// TODO Auto-generated method stub
-		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().deleteAllCookies();
 		String path= "C:\\Users\\Bharath\\Rahulshetty\\Mavenjava\\src\\test\\resources\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", path);

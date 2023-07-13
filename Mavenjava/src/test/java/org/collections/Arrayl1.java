@@ -1,6 +1,7 @@
 package org.collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Arrayl1 {
 
@@ -15,6 +16,7 @@ public class Arrayl1 {
 		A.add("Sccrath");
 		A.add("Scbnrath");
 		A.add(0, "cat");
+		System.out.println(A);
 		System.out.println(A.get(0));
 		//A.remove(0);
 		//A.get(0);
@@ -31,6 +33,15 @@ public class Arrayl1 {
 		}
 		
 		System.out.println(A.contains("Sharath"));
+		
+		Collections.sort(A);
+		for (String val:A)
+		{
+			System.out.println(val);
+		}
+		A.clear();
+		//System.out.println(A.get(0));
+		
 	}
 
 }

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>14/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 04 22:48:44 IST 2023</td>
+<td>Started on:</td><td>Thu Jul 13 09:44:24 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>34 seconds (34914 ms)</td>
+<tr><td>Total time:</td><td>51 seconds (51470 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,140 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.rahulsheety.LoginDemoTest.OpenBrowser()'><b>OpenBrowser</b><br>Test class: org.rahulsheety.LoginDemoTest</td>
-<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please enter some search keyword}
-  (Session info: chrome=114.0.5735.199): Please enter some search keyword
-Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [90476c78de626512f81fc34f1934d467, findElement {using=xpath, value=//*[@xpath=&apos;1&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1056/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90476c78de626512f81fc34f1934d467
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.rahulsheety.LoginDemoTest.OpenBrowser(LoginDemoTest.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace201069753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace201069753'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please enter some search keyword}
-  (Session info: chrome=114.0.5735.199): Please enter some search keyword
-Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [90476c78de626512f81fc34f1934d467, findElement {using=xpath, value=//*[@xpath=&apos;1&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1056/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90476c78de626512f81fc34f1934d467
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.rahulsheety.LoginDemoTest.OpenBrowser(LoginDemoTest.java:59)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>4</td>
-<td>org.rahulsheety.LoginDemoTest@4e4c3a38</td></tr>
-<tr>
-<td title='org.rahulsheety.AddCartTest.AddCart()'><b>AddCart</b><br>Test class: org.rahulsheety.AddCartTest</td>
-<td><div><pre>java.lang.IllegalArgumentException: Cannot find elements when the class name expression is null.
-	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:207)
-	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:306)
-	at org.openqa.selenium.By.className(By.java:100)
-	at org.rahulsheety.AddCartTest.AddCart(AddCartTest.java:16)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace327986890", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace327986890'><pre>java.lang.IllegalArgumentException: Cannot find elements when the class name expression is null.
-	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:207)
-	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:306)
-	at org.openqa.selenium.By.className(By.java:100)
-	at org.rahulsheety.AddCartTest.AddCart(AddCartTest.java:16)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>2</td>
-<td>org.rahulsheety.AddCartTest@11ce2e22</td></tr>
-<tr>
 <td title='org.rahulsheety.OpenBrowserTest.emptycart()'><b>emptycart</b><br>Test class: org.rahulsheety.OpenBrowserTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.cart\-icon&quot;}
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@alt=&apos;Cart&apos;]&quot;}
   (Session info: chrome=114.0.5735.199)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [06b3fcd78264ab2036774de346c60114, findElement {using=class name, value=cart-icon}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1073}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1073/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 06b3fcd78264ab2036774de346c60114
+Command: [baa50f0e5826790a7389fe0a788a026f, findElement {using=xpath, value=//*[@alt=&apos;Cart&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4234/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: baa50f0e5826790a7389fe0a788a026f
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -218,21 +94,21 @@ Session ID: 06b3fcd78264ab2036774de346c60114
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.rahulsheety.OpenBrowserTest.emptycart(OpenBrowserTest.java:34)
+	at org.rahulsheety.OpenBrowserTest.emptycart(OpenBrowserTest.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1979325411", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1979325411'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.cart\-icon&quot;}
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace332998175", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace332998175'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@alt=&apos;Cart&apos;]&quot;}
   (Session info: chrome=114.0.5735.199)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [06b3fcd78264ab2036774de346c60114, findElement {using=class name, value=cart-icon}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1073}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1073/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 06b3fcd78264ab2036774de346c60114
+Command: [baa50f0e5826790a7389fe0a788a026f, findElement {using=xpath, value=//*[@alt=&apos;Cart&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4234/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: baa50f0e5826790a7389fe0a788a026f
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -244,10 +120,10 @@ Session ID: 06b3fcd78264ab2036774de346c60114
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.rahulsheety.OpenBrowserTest.emptycart(OpenBrowserTest.java:34)
+	at org.rahulsheety.OpenBrowserTest.emptycart(OpenBrowserTest.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -280,8 +156,84 @@ Session ID: 06b3fcd78264ab2036774de346c60114
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>0</td>
-<td>org.rahulsheety.OpenBrowserTest@336365bc</td></tr>
+<td>6</td>
+<td>org.rahulsheety.OpenBrowserTest@38a1c423</td></tr>
+<tr>
+<td title='org.rahulsheety.LoginDemoTest.OpenBrowser()'><b>OpenBrowser</b><br>Test class: org.rahulsheety.LoginDemoTest</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please enter some search keyword}
+  (Session info: chrome=114.0.5735.199): Please enter some search keyword
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b75d0da1d39e29a8d7aa55c3c4c3a18a, findElement {using=xpath, value=//*[@xpath=&apos;1&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4218/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b75d0da1d39e29a8d7aa55c3c4c3a18a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.rahulsheety.LoginDemoTest.OpenBrowser(LoginDemoTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1897732690", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1897732690'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please enter some search keyword}
+  (Session info: chrome=114.0.5735.199): Please enter some search keyword
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b75d0da1d39e29a8d7aa55c3c4c3a18a, findElement {using=xpath, value=//*[@xpath=&apos;1&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4218/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b75d0da1d39e29a8d7aa55c3c4c3a18a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.rahulsheety.LoginDemoTest.OpenBrowser(LoginDemoTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>6</td>
+<td>org.rahulsheety.LoginDemoTest@4abf3f0</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -292,75 +244,85 @@ Session ID: 06b3fcd78264ab2036774de346c60114
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='qaclickacademy.AppiumTest.Android()'><b>Android</b><br>Test class: qaclickacademy.AppiumTest</td>
+<td title='org.rahulsheety.AddingTestingTest.addTwoPositiveNumbers()'><b>addTwoPositiveNumbers</b><br>Test class: org.rahulsheety.AddingTestingTest</td>
 <td></td>
 <td>0</td>
-<td>qaclickacademy.AppiumTest@38eb2fb0</td></tr>
+<td>org.rahulsheety.AddingTestingTest@64d43929</td></tr>
 <tr>
-<td title='org.rahulsheety.DemoTest.OpenBrowser()'><b>OpenBrowser</b><br>Test class: org.rahulsheety.DemoTest</td>
+<td title='org.rahulsheety.AddCartTest.AddCart()'><b>AddCart</b><br>Test class: org.rahulsheety.AddCartTest</td>
 <td></td>
-<td>17</td>
-<td>org.rahulsheety.DemoTest@3c443976</td></tr>
-<tr>
-<td title='qaclickacademy.AppiumTest.IOS()'><b>IOS</b><br>Test class: qaclickacademy.AppiumTest</td>
-<td></td>
-<td>0</td>
-<td>qaclickacademy.AppiumTest@38eb2fb0</td></tr>
+<td>5</td>
+<td>org.rahulsheety.AddCartTest@63a5d002</td></tr>
 <tr>
 <td title='qaclickacademy.SeleniumTest.elements()'><b>elements</b><br>Test class: qaclickacademy.SeleniumTest</td>
 <td></td>
 <td>0</td>
-<td>qaclickacademy.SeleniumTest@7351a16e</td></tr>
+<td>qaclickacademy.SeleniumTest@4567e53d</td></tr>
 <tr>
-<td title='org.rahulsheety.AddingTestingTest.addTwoPositiveNumbers()'><b>addTwoPositiveNumbers</b><br>Test class: org.rahulsheety.AddingTestingTest</td>
+<td title='org.rahulsheety.LocatorsTest.OpenBrowser()'><b>OpenBrowser</b><br>Test class: org.rahulsheety.LocatorsTest</td>
 <td></td>
-<td>0</td>
-<td>org.rahulsheety.AddingTestingTest@3003697</td></tr>
+<td>6</td>
+<td>org.rahulsheety.LocatorsTest@5560bcdf</td></tr>
 <tr>
 <td title='qaclickacademy.SeleniumTest.Dquit()'><b>Dquit</b><br>Test class: qaclickacademy.SeleniumTest</td>
 <td></td>
 <td>0</td>
-<td>qaclickacademy.SeleniumTest@7351a16e</td></tr>
-<tr>
-<td title='org.rahulsheety.FirefoxTest.OpenBrowser()'><b>OpenBrowser</b><br>Test class: org.rahulsheety.FirefoxTest</td>
-<td></td>
-<td>3</td>
-<td>org.rahulsheety.FirefoxTest@5560bcdf</td></tr>
-<tr>
-<td title='qaclickacademy.RestAPITest.Maps()'><b>Maps</b><br>Test class: qaclickacademy.RestAPITest</td>
-<td></td>
-<td>0</td>
-<td>qaclickacademy.RestAPITest@4567e53d</td></tr>
-<tr>
-<td title='org.rahulsheety.AddCartTest.emptycart()'><b>emptycart</b><br>Test class: org.rahulsheety.AddCartTest</td>
-<td></td>
-<td>0</td>
-<td>org.rahulsheety.AddCartTest@11ce2e22</td></tr>
+<td>qaclickacademy.SeleniumTest@4567e53d</td></tr>
 <tr>
 <td title='org.rahulsheety.EdgeBrowserTest.OpenBrowser()'><b>OpenBrowser</b><br>Test class: org.rahulsheety.EdgeBrowserTest</td>
 <td></td>
-<td>4</td>
+<td>1</td>
 <td>org.rahulsheety.EdgeBrowserTest@6ad11a56</td></tr>
-<tr>
-<td title='org.rahulsheety.AddingTestingTest.addTwoNegativeNumbers()'><b>addTwoNegativeNumbers</b><br>Test class: org.rahulsheety.AddingTestingTest</td>
-<td></td>
-<td>0</td>
-<td>org.rahulsheety.AddingTestingTest@3003697</td></tr>
-<tr>
-<td title='qaclickacademy.SeleniumTest.Browsertest()'><b>Browsertest</b><br>Test class: qaclickacademy.SeleniumTest</td>
-<td></td>
-<td>0</td>
-<td>qaclickacademy.SeleniumTest@7351a16e</td></tr>
-<tr>
-<td title='qaclickacademy.RestAPITest.Uahoo()'><b>Uahoo</b><br>Test class: qaclickacademy.RestAPITest</td>
-<td></td>
-<td>0</td>
-<td>qaclickacademy.RestAPITest@4567e53d</td></tr>
 <tr>
 <td title='qaclickacademy.SeleniumTest.elementsUI()'><b>elementsUI</b><br>Test class: qaclickacademy.SeleniumTest</td>
 <td></td>
 <td>0</td>
-<td>qaclickacademy.SeleniumTest@7351a16e</td></tr>
+<td>qaclickacademy.SeleniumTest@4567e53d</td></tr>
+<tr>
+<td title='qaclickacademy.AppiumTest.IOS()'><b>IOS</b><br>Test class: qaclickacademy.AppiumTest</td>
+<td></td>
+<td>0</td>
+<td>qaclickacademy.AppiumTest@336365bc</td></tr>
+<tr>
+<td title='org.rahulsheety.AddingTestingTest.addTwoNegativeNumbers()'><b>addTwoNegativeNumbers</b><br>Test class: org.rahulsheety.AddingTestingTest</td>
+<td></td>
+<td>0</td>
+<td>org.rahulsheety.AddingTestingTest@64d43929</td></tr>
+<tr>
+<td title='org.rahulsheety.FirefoxTest.OpenBrowser()'><b>OpenBrowser</b><br>Test class: org.rahulsheety.FirefoxTest</td>
+<td></td>
+<td>1</td>
+<td>org.rahulsheety.FirefoxTest@3028e50e</td></tr>
+<tr>
+<td title='qaclickacademy.RestAPITest.Maps()'><b>Maps</b><br>Test class: qaclickacademy.RestAPITest</td>
+<td></td>
+<td>0</td>
+<td>qaclickacademy.RestAPITest@38eb2fb0</td></tr>
+<tr>
+<td title='qaclickacademy.SeleniumTest.Browsertest()'><b>Browsertest</b><br>Test class: qaclickacademy.SeleniumTest</td>
+<td></td>
+<td>0</td>
+<td>qaclickacademy.SeleniumTest@4567e53d</td></tr>
+<tr>
+<td title='qaclickacademy.AppiumTest.Android()'><b>Android</b><br>Test class: qaclickacademy.AppiumTest</td>
+<td></td>
+<td>0</td>
+<td>qaclickacademy.AppiumTest@336365bc</td></tr>
+<tr>
+<td title='org.rahulsheety.DemoTest.OpenBrowser()'><b>OpenBrowser</b><br>Test class: org.rahulsheety.DemoTest</td>
+<td></td>
+<td>13</td>
+<td>org.rahulsheety.DemoTest@3e58d65e</td></tr>
+<tr>
+<td title='qaclickacademy.RestAPITest.Uahoo()'><b>Uahoo</b><br>Test class: qaclickacademy.RestAPITest</td>
+<td></td>
+<td>0</td>
+<td>qaclickacademy.RestAPITest@38eb2fb0</td></tr>
+<tr>
+<td title='org.rahulsheety.AddCartTest.emptycart()'><b>emptycart</b><br>Test class: org.rahulsheety.AddCartTest</td>
+<td></td>
+<td>6</td>
+<td>org.rahulsheety.AddCartTest@63a5d002</td></tr>
 </table><p>
 </body>
 </html>

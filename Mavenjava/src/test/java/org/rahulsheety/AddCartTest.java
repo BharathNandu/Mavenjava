@@ -6,14 +6,14 @@ import org.testng.annotations.*;
 public class AddCartTest extends OpenBrowserTest {
 	
 	
-	@Test
+	@Test(enabled = true)
 	public void AddCart() {
 		
 		OpenBrowserTest browser =new OpenBrowserTest();
 		browser.OpenBrowser();
 		browser.closeBrowser();
 		
-		driver.findElement(By.className(null));
+		//driver.findElement(By.className(null));
 	
 		
 		

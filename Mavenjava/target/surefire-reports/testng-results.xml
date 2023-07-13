@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="19" passed="14" failed="3" skipped="0">
+<testng-results ignored="2" total="20" passed="16" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-04T22:48:44 IST" name="Surefire suite" finished-at="2023-07-04T22:49:19 IST" duration-ms="34914">
+  <suite started-at="2023-07-13T09:44:24 IST" name="Surefire suite" finished-at="2023-07-13T09:45:15 IST" duration-ms="51470">
     <groups>
     </groups>
-    <test started-at="2023-07-04T22:48:44 IST" name="Surefire test" finished-at="2023-07-04T22:49:19 IST" duration-ms="34914">
+    <test started-at="2023-07-13T09:44:24 IST" name="Surefire test" finished-at="2023-07-13T09:45:15 IST" duration-ms="51470">
       <class name="org.rahulsheety.LoginDemoTest">
-        <test-method signature="OpenBrowser()[pri:0, instance:org.rahulsheety.LoginDemoTest@4e4c3a38]" started-at="2023-07-04T22:49:13 IST" name="OpenBrowser" finished-at="2023-07-04T22:49:18 IST" duration-ms="4417" status="FAIL">
+        <test-method signature="OpenBrowser()[pri:0, instance:org.rahulsheety.LoginDemoTest@4abf3f0]" started-at="2023-07-13T09:45:00 IST" name="OpenBrowser" finished-at="2023-07-13T09:45:07 IST" duration-ms="6557" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : Please enter some search keyword}
@@ -15,9 +15,9 @@
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [90476c78de626512f81fc34f1934d467, findElement {using=xpath, value=//*[@xpath='1']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1056/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90476c78de626512f81fc34f1934d467]]>
+Command: [b75d0da1d39e29a8d7aa55c3c4c3a18a, findElement {using=xpath, value=//*[@xpath='1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4218/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b75d0da1d39e29a8d7aa55c3c4c3a18a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please enter some search keyword}
@@ -25,9 +25,9 @@ Session ID: 90476c78de626512f81fc34f1934d467]]>
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [90476c78de626512f81fc34f1934d467, findElement {using=xpath, value=//*[@xpath='1']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1056/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90476c78de626512f81fc34f1934d467
+Command: [b75d0da1d39e29a8d7aa55c3c4c3a18a, findElement {using=xpath, value=//*[@xpath='1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4218/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b75d0da1d39e29a8d7aa55c3c4c3a18a
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
@@ -38,7 +38,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.rahulsheety.LoginDemoTest.OpenBrowser(LoginDemoTest.java:59)
+at org.rahulsheety.LoginDemoTest.OpenBrowser(LoginDemoTest.java:61)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -76,55 +76,61 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulsheety.LoginDemoTest@4e4c3a38]" started-at="2023-07-04T22:49:19 IST" name="tearDown" finished-at="2023-07-04T22:49:19 IST" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulsheety.LoginDemoTest@4abf3f0]" started-at="2023-07-13T09:45:15 IST" name="tearDown" finished-at="2023-07-13T09:45:15 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.rahulsheety.LoginDemoTest -->
       <class name="qaclickacademy.AppiumTest">
-        <test-method signature="Android()[pri:0, instance:qaclickacademy.AppiumTest@38eb2fb0]" started-at="2023-07-04T22:49:18 IST" name="Android" finished-at="2023-07-04T22:49:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="Android()[pri:0, instance:qaclickacademy.AppiumTest@336365bc]" started-at="2023-07-13T09:45:13 IST" name="Android" finished-at="2023-07-13T09:45:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Android -->
-        <test-method signature="IOS()[pri:0, instance:qaclickacademy.AppiumTest@38eb2fb0]" started-at="2023-07-04T22:49:18 IST" name="IOS" finished-at="2023-07-04T22:49:18 IST" duration-ms="1" status="PASS">
+        <test-method signature="IOS()[pri:0, instance:qaclickacademy.AppiumTest@336365bc]" started-at="2023-07-13T09:45:13 IST" name="IOS" finished-at="2023-07-13T09:45:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IOS -->
       </class> <!-- qaclickacademy.AppiumTest -->
-      <class name="org.rahulsheety.EdgeBrowserTest">
-        <test-method signature="OpenBrowser()[pri:0, instance:org.rahulsheety.EdgeBrowserTest@6ad11a56]" started-at="2023-07-04T22:49:06 IST" name="OpenBrowser" finished-at="2023-07-04T22:49:10 IST" duration-ms="4349" status="PASS">
+      <class name="org.rahulsheety.LocatorsTest">
+        <test-method signature="OpenBrowser()[pri:0, instance:org.rahulsheety.LocatorsTest@5560bcdf]" started-at="2023-07-13T09:44:53 IST" name="OpenBrowser" finished-at="2023-07-13T09:45:00 IST" duration-ms="6958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.rahulsheety.EdgeBrowserTest@6ad11a56]" started-at="2023-07-04T22:49:18 IST" name="closeBrowser" finished-at="2023-07-04T22:49:18 IST" duration-ms="245" status="PASS">
+      </class> <!-- org.rahulsheety.LocatorsTest -->
+      <class name="org.rahulsheety.EdgeBrowserTest">
+        <test-method signature="OpenBrowser()[pri:0, instance:org.rahulsheety.EdgeBrowserTest@6ad11a56]" started-at="2023-07-13T09:44:50 IST" name="OpenBrowser" finished-at="2023-07-13T09:44:51 IST" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.rahulsheety.EdgeBrowserTest@6ad11a56]" started-at="2023-07-13T09:45:13 IST" name="closeBrowser" finished-at="2023-07-13T09:45:13 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- org.rahulsheety.EdgeBrowserTest -->
       <class name="org.rahulsheety.OpenBrowserTest">
-        <test-method signature="emptycart()[pri:0, instance:org.rahulsheety.OpenBrowserTest@336365bc]" started-at="2023-07-04T22:49:18 IST" name="emptycart" finished-at="2023-07-04T22:49:18 IST" duration-ms="20" status="FAIL">
+        <test-method signature="emptycart()[pri:0, instance:org.rahulsheety.OpenBrowserTest@38a1c423]" started-at="2023-07-13T09:45:07 IST" name="emptycart" finished-at="2023-07-13T09:45:13 IST" duration-ms="6026" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".cart\-icon"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@alt='Cart']"}
   (Session info: chrome=114.0.5735.199)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [06b3fcd78264ab2036774de346c60114, findElement {using=class name, value=cart-icon}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1073}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1073/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 06b3fcd78264ab2036774de346c60114]]>
+Command: [baa50f0e5826790a7389fe0a788a026f, findElement {using=xpath, value=//*[@alt='Cart']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4234/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: baa50f0e5826790a7389fe0a788a026f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".cart\-icon"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@alt='Cart']"}
   (Session info: chrome=114.0.5735.199)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [06b3fcd78264ab2036774de346c60114, findElement {using=class name, value=cart-icon}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:1073}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1073/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 06b3fcd78264ab2036774de346c60114
+Command: [baa50f0e5826790a7389fe0a788a026f, findElement {using=xpath, value=//*[@alt='Cart']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Bharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:4234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4234/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: baa50f0e5826790a7389fe0a788a026f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -136,10 +142,10 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.rahulsheety.OpenBrowserTest.emptycart(OpenBrowserTest.java:34)
+at org.rahulsheety.OpenBrowserTest.emptycart(OpenBrowserTest.java:35)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -179,121 +185,77 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- emptycart -->
       </class> <!-- org.rahulsheety.OpenBrowserTest -->
       <class name="qaclickacademy.RestAPITest">
-        <test-method signature="Maps()[pri:0, instance:qaclickacademy.RestAPITest@4567e53d]" started-at="2023-07-04T22:49:18 IST" name="Maps" finished-at="2023-07-04T22:49:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="Maps()[pri:0, instance:qaclickacademy.RestAPITest@38eb2fb0]" started-at="2023-07-13T09:45:13 IST" name="Maps" finished-at="2023-07-13T09:45:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Maps -->
-        <test-method signature="Uahoo()[pri:0, instance:qaclickacademy.RestAPITest@4567e53d]" started-at="2023-07-04T22:49:18 IST" name="Uahoo" finished-at="2023-07-04T22:49:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="Uahoo()[pri:0, instance:qaclickacademy.RestAPITest@38eb2fb0]" started-at="2023-07-13T09:45:13 IST" name="Uahoo" finished-at="2023-07-13T09:45:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Uahoo -->
       </class> <!-- qaclickacademy.RestAPITest -->
       <class name="org.rahulsheety.AddingTestingTest">
-        <test-method signature="addTwoPositiveNumbers()[pri:0, instance:org.rahulsheety.AddingTestingTest@3003697]" started-at="2023-07-04T22:48:48 IST" name="addTwoPositiveNumbers" finished-at="2023-07-04T22:48:48 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addTwoPositiveNumbers -->
-        <test-method signature="addTwoNegativeNumbers()[pri:0, instance:org.rahulsheety.AddingTestingTest@3003697]" started-at="2023-07-04T22:48:48 IST" name="addTwoNegativeNumbers" finished-at="2023-07-04T22:48:48 IST" duration-ms="0" status="PASS">
+        <test-method signature="addTwoNegativeNumbers()[pri:0, instance:org.rahulsheety.AddingTestingTest@64d43929]" started-at="2023-07-13T09:44:37 IST" name="addTwoNegativeNumbers" finished-at="2023-07-13T09:44:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTwoNegativeNumbers -->
+        <test-method signature="addTwoPositiveNumbers()[pri:0, instance:org.rahulsheety.AddingTestingTest@64d43929]" started-at="2023-07-13T09:44:37 IST" name="addTwoPositiveNumbers" finished-at="2023-07-13T09:44:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTwoPositiveNumbers -->
       </class> <!-- org.rahulsheety.AddingTestingTest -->
       <class name="qaclickacademy.SeleniumTest">
-        <test-method signature="Browsertest()[pri:0, instance:qaclickacademy.SeleniumTest@7351a16e]" started-at="2023-07-04T22:49:18 IST" name="Browsertest" finished-at="2023-07-04T22:49:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="Browsertest()[pri:0, instance:qaclickacademy.SeleniumTest@4567e53d]" started-at="2023-07-13T09:45:13 IST" name="Browsertest" finished-at="2023-07-13T09:45:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browsertest -->
-        <test-method signature="elements()[pri:0, instance:qaclickacademy.SeleniumTest@7351a16e]" started-at="2023-07-04T22:49:18 IST" name="elements" finished-at="2023-07-04T22:49:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="elements()[pri:0, instance:qaclickacademy.SeleniumTest@4567e53d]" started-at="2023-07-13T09:45:13 IST" name="elements" finished-at="2023-07-13T09:45:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elements -->
-        <test-method signature="Dquit()[pri:0, instance:qaclickacademy.SeleniumTest@7351a16e]" started-at="2023-07-04T22:49:18 IST" name="Dquit" finished-at="2023-07-04T22:49:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="Dquit()[pri:0, instance:qaclickacademy.SeleniumTest@4567e53d]" started-at="2023-07-13T09:45:13 IST" name="Dquit" finished-at="2023-07-13T09:45:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dquit -->
-        <test-method signature="elementsUI()[pri:0, instance:qaclickacademy.SeleniumTest@7351a16e]" started-at="2023-07-04T22:49:18 IST" name="elementsUI" finished-at="2023-07-04T22:49:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="elementsUI()[pri:0, instance:qaclickacademy.SeleniumTest@4567e53d]" started-at="2023-07-13T09:45:13 IST" name="elementsUI" finished-at="2023-07-13T09:45:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elementsUI -->
       </class> <!-- qaclickacademy.SeleniumTest -->
       <class name="org.rahulsheety.AddCartTest">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:org.rahulsheety.AddCartTest@11ce2e22]" started-at="2023-07-04T22:48:44 IST" name="OpenBrowser" finished-at="2023-07-04T22:48:46 IST" duration-ms="1198" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:org.rahulsheety.AddCartTest@63a5d002]" started-at="2023-07-13T09:44:24 IST" name="OpenBrowser" finished-at="2023-07-13T09:44:25 IST" duration-ms="1070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="AddCart()[pri:0, instance:org.rahulsheety.AddCartTest@11ce2e22]" started-at="2023-07-04T22:48:46 IST" name="AddCart" finished-at="2023-07-04T22:48:48 IST" duration-ms="2223" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Cannot find elements when the class name expression is null.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Cannot find elements when the class name expression is null.
-at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:207)
-at org.openqa.selenium.By$ByClassName.<init>(By.java:306)
-at org.openqa.selenium.By.className(By.java:100)
-at org.rahulsheety.AddCartTest.AddCart(AddCartTest.java:16)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+        <test-method signature="AddCart()[pri:0, instance:org.rahulsheety.AddCartTest@63a5d002]" started-at="2023-07-13T09:44:25 IST" name="AddCart" finished-at="2023-07-13T09:44:31 IST" duration-ms="5694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCart -->
-        <test-method signature="emptycart()[pri:0, instance:org.rahulsheety.AddCartTest@11ce2e22]" started-at="2023-07-04T22:48:48 IST" name="emptycart" finished-at="2023-07-04T22:48:48 IST" duration-ms="119" status="PASS">
+        <test-method signature="emptycart()[pri:0, instance:org.rahulsheety.AddCartTest@63a5d002]" started-at="2023-07-13T09:44:31 IST" name="emptycart" finished-at="2023-07-13T09:44:37 IST" duration-ms="6119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptycart -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.rahulsheety.AddCartTest@11ce2e22]" started-at="2023-07-04T22:49:19 IST" name="closeBrowser" finished-at="2023-07-04T22:49:19 IST" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.rahulsheety.AddCartTest@63a5d002]" started-at="2023-07-13T09:45:15 IST" name="closeBrowser" finished-at="2023-07-13T09:45:15 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- org.rahulsheety.AddCartTest -->
       <class name="org.rahulsheety.FirefoxTest">
-        <test-method signature="OpenBrowser()[pri:0, instance:org.rahulsheety.FirefoxTest@5560bcdf]" started-at="2023-07-04T22:49:10 IST" name="OpenBrowser" finished-at="2023-07-04T22:49:13 IST" duration-ms="3301" status="PASS">
+        <test-method signature="OpenBrowser()[pri:0, instance:org.rahulsheety.FirefoxTest@3028e50e]" started-at="2023-07-13T09:44:51 IST" name="OpenBrowser" finished-at="2023-07-13T09:44:53 IST" duration-ms="1787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.rahulsheety.FirefoxTest@5560bcdf]" started-at="2023-07-04T22:49:18 IST" name="closeBrowser" finished-at="2023-07-04T22:49:19 IST" duration-ms="955" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.rahulsheety.FirefoxTest@3028e50e]" started-at="2023-07-13T09:45:13 IST" name="closeBrowser" finished-at="2023-07-13T09:45:15 IST" duration-ms="2013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- org.rahulsheety.FirefoxTest -->
       <class name="org.rahulsheety.DemoTest">
-        <test-method signature="OpenBrowser()[pri:0, instance:org.rahulsheety.DemoTest@3c443976]" started-at="2023-07-04T22:48:48 IST" name="OpenBrowser" finished-at="2023-07-04T22:49:06 IST" duration-ms="17605" status="PASS">
+        <test-method signature="OpenBrowser()[pri:0, instance:org.rahulsheety.DemoTest@3e58d65e]" started-at="2023-07-13T09:44:37 IST" name="OpenBrowser" finished-at="2023-07-13T09:44:50 IST" duration-ms="13388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulsheety.DemoTest@3c443976]" started-at="2023-07-04T22:49:18 IST" name="tearDown" finished-at="2023-07-04T22:49:18 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulsheety.DemoTest@3e58d65e]" started-at="2023-07-13T09:45:13 IST" name="tearDown" finished-at="2023-07-13T09:45:13 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
