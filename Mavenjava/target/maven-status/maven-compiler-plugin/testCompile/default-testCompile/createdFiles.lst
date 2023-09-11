@@ -24,6 +24,7 @@ org\java\Juy.class
 org\rahulsheety\SelintroTest.class
 org\collections\Array2.class
 org\java\Obj3.class
+org\collections\Book.class
 org\java\IntChild.class
 org\wrapper\WapperExample2.class
 org\stringleaning\String6.class
@@ -35,6 +36,7 @@ org\stringleaning\String5.class
 org\java\Cubestaticmethod2.class
 org\qa\Met.class
 org\qa\Testoverriding1.class
+org\rahulsheety\Locators2Test.class
 org\java\Ifelseif.class
 org\java\Ob2.class
 org\rahulsheety\OpenBrowserTest.class
@@ -56,6 +58,7 @@ org\stringleaning\String2.class
 org\java\Arra1.class
 org\java\Sum.class
 qaclickacademy\AppiumTest.class
+org\collections\HashMap2.class
 org\collections\LList2.class
 org\java\Continue.class
 org\java\Cube.class
@@ -64,6 +67,7 @@ org\qa\Bike2.class
 org\rahulsheety\DemoTest.class
 org\rahulsheety\IncognitoTest.class
 org\qa\Animal.class
+org\collections\Map1.class
 org\qa\TestSuper1.class
 org\java\Variable.class
 org\java\Whileloop2.class
@@ -74,6 +78,7 @@ org\qa\Abstr1.class
 org\interviewquestions\A.class
 org\interviewquestions\Counting.class
 org\java\Pyramid1.class
+org\expectionhandling\ExceptionalHandling2.class
 org\java\Intsuper.class
 org\java\Foreach.class
 org\java\Switch2.class
@@ -88,9 +93,12 @@ org\stringleaning\String7.class
 org\rahulsheety\EdgeBrowserTest.class
 org\java\Scanner1.class
 org\rahulsheety\LoginDemoTest.class
+org\expectionhandling\Exceptionhandling1.class
 org\java\Forloop.class
 org\qa\Poly2.class
 org\java\Switch1.class
+org\rahulsheety\RahulTest.class
+org\collections\HashMap1.class
 org\qa\June1.class
 org\stringleaning\String1.class
 org\java\Ifelse.class

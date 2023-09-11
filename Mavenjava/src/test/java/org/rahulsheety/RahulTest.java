@@ -35,7 +35,7 @@ public class RahulTest {
 		driver.findElement(By.linkText("Reset Login")).click();
 		
 		String tempPassword =driver.findElement(By.xpath("//form/p[1]")).getText();
-		
+		System.out.println(tempPassword);
 	}
 
 }

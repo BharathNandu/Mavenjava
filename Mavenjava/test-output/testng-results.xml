@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-11T00:05:58 IST" name="Default suite" finished-at="2023-07-11T00:05:58 IST" duration-ms="421">
+  <suite started-at="2023-09-11T23:09:47 IST" name="Default suite" finished-at="2023-09-11T23:09:48 IST" duration-ms="511">
     <groups>
     </groups>
-    <test started-at="2023-07-11T00:05:58 IST" name="Default test" finished-at="2023-07-11T00:05:58 IST" duration-ms="421">
+    <test started-at="2023-09-11T23:09:47 IST" name="Default test" finished-at="2023-09-11T23:09:48 IST" duration-ms="511">
       <class name="org.rahulsheety.LocatorsTest">
-        <test-method signature="OpenBrowser()[pri:0, instance:org.rahulsheety.LocatorsTest@71ba6d4e]" started-at="2023-07-11T00:05:58 IST" name="OpenBrowser" finished-at="2023-07-11T00:05:58 IST" duration-ms="380" status="FAIL">
+        <test-method signature="OpenBrowser()[pri:0, instance:org.rahulsheety.LocatorsTest@71ba6d4e]" started-at="2023-09-11T23:09:47 IST" name="OpenBrowser" finished-at="2023-09-11T23:09:48 IST" duration-ms="468" status="FAIL">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA['com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)']]>

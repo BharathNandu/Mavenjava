@@ -28,6 +28,7 @@ public class LocatorsTest {
 
 		driver.findElement(By.linkText("Forgot your password?")).click();
 		driver.findElement(By.xpath("//*[@placeholder='Name']")).sendKeys("abcd");
+		driver.close();
 	}
 
 }

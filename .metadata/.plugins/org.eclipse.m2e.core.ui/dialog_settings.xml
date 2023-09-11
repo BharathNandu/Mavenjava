@@ -44,11 +44,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="September"/>
 			<item value="qaclickacademy"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Learning"/>
 			<item value="Mavenjava"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -69,11 +71,13 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Test"/>
 			<item value="BDD"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Test"/>
 			<item value="BDD"/>
 		</list>
 		<list key="version">
