@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Bharath\Rahulshetty\Framework_build01_Feb"/>
 			<item value="C:\Users\Bharath\Rahulshetty"/>
 			<item value="C:\Users\Bharath\Rahulshetty\GitTestDemo"/>
 		</list>

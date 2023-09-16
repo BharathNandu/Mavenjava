@@ -76,7 +76,19 @@
 			<artifactId>guava</artifactId>
 			<version>31.0.1-jre</version>
 		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.4.1</version>
+		</dependency>
 
 
+		<dependency>
+			<groupId>PageObject</groupId>
+			<artifactId>PageObjectFramework</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>

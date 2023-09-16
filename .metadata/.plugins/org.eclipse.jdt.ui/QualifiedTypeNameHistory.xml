@@ -2,20 +2,13 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.openqa.selenium.By.ByClassName"/>
     <fullyQualifiedTypeName name="org.testng.Assert"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
     <fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
     <fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
     <fullyQualifiedTypeName name="cucumber.api.junit.Cucumber"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
@@ -23,4 +16,22 @@
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.Demowebshopbase.Baseclass"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+    <fullyQualifiedTypeName name="org.Objects.LoginPage"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.functions.Webfunctions"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
+    <fullyQualifiedTypeName name="org.Test.BaseClass"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="org.Objects.Spicejet"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+    <fullyQualifiedTypeName name="org.testng.ITestContext"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
 </qualifiedTypeNameHistroy>
