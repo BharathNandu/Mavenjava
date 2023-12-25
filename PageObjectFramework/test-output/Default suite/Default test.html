@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 16 19:10:39 IST 2023</td>
+<td>Started on:</td><td>Mon Sep 18 12:31:43 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (155 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4272 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,8 +77,10 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='org.testpacks.TC1.staticdropdown()'><b>staticdropdown</b><br>Test class: org.testpacks.TC1</td>
-<td><div><pre>java.lang.ClassCastException: class org.openqa.selenium.By$ByXPath cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ByXPath and org.openqa.selenium.WebElement are in unnamed module of loader &apos;app&apos;)
-	at org.testpacks.TC1.staticdropdown(TC1.java:25)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.getTagName()&quot; because &quot;element&quot; is null
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:46)
+	at org.functions.Webfunctions.staticdropdownbyText(Webfunctions.java:28)
+	at org.testpacks.TC1.staticdropdown(TC1.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,9 +109,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace839771540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace839771540'><pre>java.lang.ClassCastException: class org.openqa.selenium.By$ByXPath cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ByXPath and org.openqa.selenium.WebElement are in unnamed module of loader &apos;app&apos;)
-	at org.testpacks.TC1.staticdropdown(TC1.java:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2013332834", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2013332834'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.getTagName()&quot; because &quot;element&quot; is null
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:46)
+	at org.functions.Webfunctions.staticdropdownbyText(Webfunctions.java:28)
+	at org.testpacks.TC1.staticdropdown(TC1.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -139,7 +143,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
+<td>3</td>
 <td>org.testpacks.TC1@68df9280</td></tr>
 </table><p>
 </body>

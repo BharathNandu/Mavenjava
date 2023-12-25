@@ -21,9 +21,11 @@ public class TC1   {
 	public void staticdropdown() throws Exception {
 		spicejet = new Spicejet(driver);
 		baseclass = new BaseClass();
+		baseclass.Browsersetup();
 		obj1 = new 	Webfunctions(driver);
+		
 		//WebElement drop =  spicejet.selectdropdown(driver);
-		obj1.staticdropdownbyText(drop, "AED" );
+		obj1.staticdropdownbyText(spicejet.dropdown, "AED" );
 		
 	
 	

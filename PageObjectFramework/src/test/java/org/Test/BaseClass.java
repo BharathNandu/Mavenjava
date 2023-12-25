@@ -8,27 +8,14 @@ import org.testng.annotations.*;
 
 public class BaseClass {
 
-	private static WebDriver driver;
+	public WebDriver driver;
 
-	@BeforeTest
-	public static void Browsersetup(String browsername) {
+	@BeforeMethod
+	public  void Browsersetup() {
 
-		if (browsername.equalsIgnoreCase("chrome"))  {
-			String path = "C:\\Users\\Bharath\\Rahulshetty\\Mavenjava\\src\\test\\resources\\chromedriver.exe";
-			System.setProperty("webdriver.chrome.driver", path);
-			driver = new ChromeDriver();
-		} else if (browsername.equalsIgnoreCase("firefox")) {
-			driver = new FirefoxDriver();
-			String path = "C:\\Users\\Bharath\\Rahulshetty\\Mavenjava\\src\\test\\resources\\geckodriver.exe";
-			System.setProperty("webdriver.gecko.driver", path);
-
-		} else if (browsername.equalsIgnoreCase("edgebrowser")) {
-			driver = new EdgeDriver();
-			String path = "C:\\Users\\Bharath\\Rahulshetty\\Mavenjava\\src\\test\\resources\\msedgedriver.exe";
-			System.setProperty("webdriver.edgedriver.driver", path);
-		} else {
-			System.out.println("Browser is not invoked");
-		}
+		String path = "C:\\Users\\Bharath\\Rahulshetty\\Mavenjava\\src\\test\\resources\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", path);
+		driver = new ChromeDriver();
 
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		driver.manage().window().maximize();

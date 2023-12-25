@@ -10,22 +10,18 @@ public class Spicejet {
 	
 
 	
-	private WebDriver driver = null;
+	public WebDriver driver ;
 	
 	
 	public Spicejet(WebDriver driver) {
 		this.driver =driver;
 		
 	}
-		
-	//method to interact with the webelement
-	public static By dropdown =By.xpath("//*[@id='ctl00_mainContent_DropDownListCurrency']");
 	
-	public void  selectdropdown() {
-		driver.findElement(dropdown).isDisplayed();
-		//return ;
-		
-	}
+	@FindBy(xpath="//*[@id='ctl00_mainContent_DropDownListCurrency']") 
+	public WebElement dropdown;
+	//method to interact with the webelement
+	
 	
 }
 
